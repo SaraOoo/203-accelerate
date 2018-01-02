@@ -71,4 +71,12 @@ get_header(); ?>
 		</div> <!---.site-content --->
 	</section> <!--- recent-posts--->
 
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<h4>Recent tweet</h4>
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+	<a class="read-more-link" href="https://www.twitter.com">Follow us ></a>
+</div>
+<?php endif; ?>
+
 <?php get_footer(); ?>

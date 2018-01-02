@@ -92,7 +92,8 @@ Text Domain:  accelerate-theme-child
   margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.blog-post h4,
+.widget-area h4 {
   font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
@@ -326,3 +327,24 @@ div.case-study-images img {
   flex-flow: column;
 }
 /* End 404 PAGE */
+
+/* TWITTER MODULE HOMEPAGE */
+.widget-area {
+  float: left;
+  margin: 0 0 0 60px;
+}
+
+.fts-powered-by-text {
+  font-size: 0em;
+}
+/* End MODULE HOMEPAGE */
+
+/* MailChimp signup */
+.mc4wp-form-fields p {
+  font-family: 'Open Sans';
+}
+
+.mc4wp-form-fields input[type=submit] {
+  background: #45ac9d;
+}
+/* End MailChimp signup */
