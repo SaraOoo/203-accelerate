@@ -14,6 +14,7 @@ Text Domain:  accelerate-theme-child
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
 }
+/* End NAVIGATION */
 
 /* HOMEPAGE STYLES */
 .home-page {
@@ -22,9 +23,10 @@ Text Domain:  accelerate-theme-child
 .button {
   color: #fff;
 	background: #45ac9d;
-
 }
+/* End HOMEPAGE STYLES */
 
+/* HOMEPAGE- BLOG POST */
 .blog-post {
   width: 50%;
   float: left;
@@ -48,3 +50,67 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+/* End HOMEPAGE- BLOG POST */
+
+/* CUSTOM PAGE: Case Studies */
+.case-study .case-study-sidebar {
+  float: left;
+  width: 40%;
+}
+
+.case-study .case-study-images {
+  float: left;
+  width: 55%;
+}
+
+.case-study h2 { /*title */
+  font-size: 1.5em;
+  margin: 50px 0 0 0;
+}
+
+.case-study h4 { /* what we did */
+  margin: 0;
+  color: grey;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 2.3em;
+}
+
+.case-study h5 { /*client */
+  color: black;
+  margin: 0;
+}
+.case-study-images img {
+  margin-bottom: 30px;
+}
+
+.case-study a {
+  color: #45ac9d;
+  text-transform: capitalize;
+}
+
+/* responsive */
+@media screen and (max-width: 800px) {
+.case-study {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.case-study .case-study-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 100%;
+  float: none;
+}
+.case-study .case-study-images {
+  width: 60%;
+  float: none;
+}
+}
+/*end responsive */
+
+/* End CUSTOM PAGE: Case Studies */
