@@ -122,6 +122,11 @@ Text Domain:  accelerate-theme-child
   text-transform: capitalize;
 }
 
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
 /* responsive */
 @media screen and (max-width: 800px) {
 .case-study {
@@ -147,3 +152,14 @@ Text Domain:  accelerate-theme-child
 /*end responsive */
 
 /* End CUSTOM PAGE: Case Studies */
+
+/* ARCHIVE-PAGE: Case Studies */
+.case-study-archive h2 a {
+  color: black;
+  font-weight: 400;
+}
+.case-study-archive .case-study-sidebar {
+  width: 35%;
+  margin-right: 80px;
+}
+/* End ARCHIVE-PAGE: Case Studies */
