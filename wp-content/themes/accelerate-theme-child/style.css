@@ -187,3 +187,22 @@ div.case-study-images img {
   margin-right: 80px;
 }
 /* End ARCHIVE-PAGE: Case Studies */
+
+/* CONTACT US: Ninja Forms */
+.nf-email-container, .nf-name-container{
+  width: 40%;
+  display: inline-block;
+}
+.nf-name-container {
+  margin-right: 20px;
+}
+
+.nf-field-element input[type=button] {
+  background: #45ac9d;
+  float: right;
+}
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+/* End CONTACT US: Ninja Forms */
