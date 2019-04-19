@@ -15,6 +15,10 @@ Text Domain:  accelerate-theme-child
   background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* GENERAL */
+
+/* End GENERAL */
+
 /* FOOTER */
 .social-media-menu li {
   list-style: none;
@@ -206,3 +210,92 @@ div.case-study-images img {
 }
 
 /* End CONTACT US: Ninja Forms */
+
+/* Custom Page: OUR SERVICES */
+.our-services-top .main-image-div {
+  width: 100%;
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  height: 300px;
+  margin: 0;
+  position: relative;
+}
+
+.our-services-top .main-content {
+  margin: 0;
+  padding: 0;
+}
+
+.our-services-top p {
+  position: absolute;
+  top: 30%;
+  width: 40%;
+  left: 30%;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+.our-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+.our-services h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.service-content h4 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.service-content p {
+  font-size: 0.9em;
+}
+
+.service-content article {
+  margin-bottom: 80px;
+  clear: both;
+}
+
+.service-1 figure,
+.service-3 figure {
+  float: left;
+  margin-right: 30px;
+}
+
+.service-1 .content-left,
+.service-3 .content-left {
+  float: left;
+}
+
+.service-2 figure,
+.service-4 figure {
+  float: right;
+  margin-left: 30px;
+}
+
+.service-2 .content-right,
+.service-4 .content-right, {
+  float: right;
+}
+
+
+.contact-us-part h2,
+.contact-us-part a {
+  float: left;
+}
+.contact-us-part h2 {
+  margin-left: 20%;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.contact-us-part a {
+  margin-top: 5%;
+}
+
+/* End Custom Page: OUR SERVICES */
