@@ -299,3 +299,30 @@ div.case-study-images img {
 }
 
 /* End Custom Page: OUR SERVICES */
+
+/* 404 PAGE */
+
+.page-404 h1 {
+  text-align: center;
+  color: #45ac9d;
+  font-size: 5em;
+  font-family: 'Londrina Solid', 'Montserrat', cursive;
+  margin: 40px 0;
+}
+
+.page-404 h2,
+.page-404 h3 {
+  margin: 0;
+}
+
+.page-404 a {
+  color: #45ac9d;
+}
+
+.page-404 .centered-404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+/* End 404 PAGE */
